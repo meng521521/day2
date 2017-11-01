@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  font-size: .12rem;
+  display: -webkit-flex;
+  flex-direction: column;
+  background: #666; }
+
+header {
+  height: .4rem;
+  background: #333;
+  color: #fff;
+  position: relative; }
+  header h1 {
+    height: .4rem;
+    padding-left: .5rem;
+    font-size: .14rem;
+    line-height: .4rem; }
+  header span {
+    position: absolute;
+    left: .2rem;
+    top: .08rem;
+    font-size: .16rem; }
+  header b {
+    position: absolute;
+    right: .1rem;
+    top: .1rem; }
+
+section {
+  flex: 1;
+  overflow-y: scroll; }
+  section .content {
+    width: 90%;
+    background: #fff;
+    margin: 100px auto;
+    border-radius: .06rem; }
+    section .content .top {
+      text-align: center; }
+      section .content .top img {
+        width: 50%;
+        padding: .2rem;
+        padding-bottom: .1rem; }
+      section .content .top p {
+        font-size: .16rem; }
+    section .content .center {
+      padding-top: .2rem; }
+      section .content .center ul {
+        padding: 0 .2rem; }
+        section .content .center ul li {
+          border-bottom: .01rem solid #ccc;
+          padding: .1rem;
+          margin-top: .15rem; }
+          section .content .center ul li img {
+            width: 5%;
+            vertical-align: middle; }
+          section .content .center ul li input {
+            border: 0;
+            margin-left: .1rem; }
+          section .content .center ul li button {
+            width: 100%;
+            background: green;
+            border: 0;
+            border-radius: .06rem;
+            color: #fff;
+            padding: .1rem; }
+
+/*# sourceMappingURL=style.css.map */
